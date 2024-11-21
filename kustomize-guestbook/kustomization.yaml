@@ -12,3 +12,4 @@ labels:
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
+- guestbook-ui-testdeploy.yaml
