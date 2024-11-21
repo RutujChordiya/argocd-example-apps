@@ -3,6 +3,12 @@
 
 namePrefix: kustomize-
 
+labels:
+- pairs:
+    version: v1
+  includeSelectors: false
+  includeTemplates: false
+
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
